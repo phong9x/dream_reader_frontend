@@ -1,0 +1,87 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset="utf-8")
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    title Pay
+
+    //- ="\n"
+    //- // Favicon
+    //- link(rel='shortcut icon', href='../../assets/images/icon/favicon.ico', type='image/x-icon')
+
+    ="\n"
+    // Web Fonts
+    link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css")
+
+    ="\n"
+    // Vendor CSS
+    link(rel='stylesheet', type='text/css', href='../libs/css/bootstrap.min.css')
+    block css
+      ="\n"
+      // Theme CSS
+      link(rel='stylesheet', type="text/css", href='../assets/css/style.css')
+
+  body#pay-page
+    .header-container
+      .nav-right
+        ul
+          li
+            a(href="pay.html") 꿈교환권 충전
+          li.active
+            a(href="login.html") 로그인
+      .container
+        .header-content
+          .logo-container
+            a.logo(href="#")
+              img(src="../assets/images/logo/logo.png")
+          .page-name 꿈해몽 로또번호
+            br
+            | 추출하기
+       
+    ="\n"
+
+    .page-content.pay-container
+      .container
+        .pay-content
+          
+       
+    ="\n"
+    footer.footer
+      .container
+        .footer-content
+          | 번호드림의 꿈을 분석한 정보제공만을 목적으로 하며, 당첨확률 개선서비스가 아닙니다.
+          br
+          span.font-150 ⓒ 2017 번호드림
+        //- .clearfix
+      // .footer
+    
+                    
+         
+    // .popupLoginPage
+    //- append popup-wrapper
+    //-   include ../includes/popupCreateInfo.jade
+    //-   ="\n"
+    //-   include ../includes/popupMessageCreate.jade
+    //-   ="\n"
+    //-   include ../includes/popupMessageCreateAdd.jade
+      
+  script(type='text/javascript', src='../libs/js/jquery.min.js')
+  script(type='text/javascript', src='../libs/js/bootstrap.min.js')
+  //- script(type="text/javascript", src='../../assets/js/admin.js')
+  script.
+    $(document).ready(function () {
+    
+    });
+   
+    //- var body_main = $(window).height();
+    //- var header_h = 94 + 35;
+    //- var footer_h = 96;
+    //- var content_main_h = body_main - header_h - footer_h;
+    //- var h_jsmap = content_main_h - 60;
+
+    //- document.write('<style> .main-container{height: '+ content_main_h +'px;} #vmap{height: '+ h_jsmap +'px;}</style>');
+    
+    

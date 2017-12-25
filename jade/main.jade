@@ -1,0 +1,1857 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset="utf-8")
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+    title Main
+
+    //- ="\n"
+    //- // Favicon
+    //- link(rel='shortcut icon', href='../../assets/images/icon/favicon.ico', type='image/x-icon')
+
+    ="\n"
+    // Web Fonts
+    link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css")
+
+    ="\n"
+    // Vendor CSS
+    link(rel='stylesheet', type='text/css', href='../libs/css/bootstrap.min.css')
+    block css
+      ="\n"
+      // Theme CSS
+      link(rel='stylesheet', type="text/css", href='../assets/css/bootstrap-none-responsive.css')
+      link(rel='stylesheet', type="text/css", href='../assets/css/style.css')
+
+  body#main-page
+    .body
+      .header-mobile-container
+        .menu-header
+          .col-item.col-left
+            a.item-link(href="#")
+              i.icon-flash
+          .col-item.col-right
+            ul
+              li
+                a.link-singin(href="#") 아직 로그인 안하셨나요?
+              li.active
+                a.login(href="login.html") 로그인
+      .header-container
+        .nav-right
+          ul
+            li
+              a(href="pay.html") 꿈교환권 충전
+            li.active
+              a(href="login.html") 로그인
+        .container
+          .header-content.header-PC
+            .logo-container
+              a.logo(href="#")
+                img(src="../assets/images/logo/logo.png")
+            .page-name 꿈해몽 로또번호
+              br
+              | 추출하기
+          .header-content.header-mobile
+            .logo-container
+              a.logo(href="#")
+                img(src="../assets/images/logo/logo-mobile.png")
+            .page-name 꿈해몽 로또번호 추출하기
+         
+      ="\n"
+
+      #main-1.page-content.main-container
+        .container
+          .main-content
+            .main-header
+              .main-number 01
+              .main-title 좋은꿈 꾸셨나요?
+              .main-sub-title 잊혀지기 전에 해몽해보세요!
+            .list-item-content.row
+              .item-dream
+                .radio-style-1
+                  input#radio-1(type='radio', name='group-dream-main1', value="main-2")  
+                  label.after-checkbox(for='radio-1')
+                    .item-text 동물, 짐승
+              .item-dream
+                .radio-style-1
+                  input#radio-2(type='radio', name='group-dream-main1', value="main-2_1")  
+                  label.after-checkbox(for='radio-2')
+                    .item-text 새, 조류
+              .item-dream
+                .radio-style-1
+                  input#radio-3(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-3')
+                    .item-text 물고기
+              .item-dream
+                .radio-style-1
+                  input#radio-4(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-4')
+                    .item-text 꽃
+              .item-dream
+                .radio-style-1
+                  input#radio-5(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-5')
+                    .item-text 나무, 숲
+              .item-dream
+                .radio-style-1
+                  input#radio-6(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-6')
+                    .item-text 야채, 곡식
+              .item-dream
+                .radio-style-1
+                  input#radio-7(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-7')
+                    .item-text 자연
+              .item-dream
+                .radio-style-1
+                  input#radio-8(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-8')
+                    .item-text 곤충, 벌레
+              .item-dream
+                .radio-style-1
+                  input#radio-9(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-9')
+                    .item-text 장소, 집
+              .item-dream
+                .radio-style-1
+                  input#radio-10(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-10')
+                    .item-text 문서, 증서
+              .item-dream
+                .radio-style-1
+                  input#radio-11(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-11')
+                    .item-text 감정
+              .item-dream
+                .radio-style-1
+                  input#radio-12(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-12')
+                    .item-text 표현
+              .item-dream
+                .radio-style-1
+                  input#radio-13(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-13')
+                    .item-text 행동
+              .item-dream
+                .radio-style-1
+                  input#radio-14(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-14')
+                    .item-text 인연, 결혼, 성교, 출산
+              .item-dream
+                .radio-style-1
+                  input#radio-15(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-15')
+                    .item-text 신, 조상
+              .item-dream
+                .radio-style-1
+                  input#radio-16(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-16')
+                    .item-text 가족, 친척, 친구
+              .item-dream
+                .radio-style-1
+                  input#radio-17(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-17')
+                    .item-text 죽음
+              .item-dream
+                .radio-style-1
+                  input#radio-18(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-18')
+                    .item-text 몸, 신체
+              .item-dream
+                .radio-style-1
+                  input#radio-19(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-19')
+                    .item-text 분비물, 배설물
+              .item-dream
+                .radio-style-1
+                  input#radio-20(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-20')
+                    .item-text 질병, 의약, 미용
+              .item-dream
+                .radio-style-1
+                  input#radio-21(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-21')
+                    .item-text 돈, 거래
+              .item-dream
+                .radio-style-1
+                  input#radio-22(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-22')
+                    .item-text 독서, 집필, 시험, 사무
+              .item-dream
+                .radio-style-1
+                  input#radio-23(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-23')
+                    .item-text 여권, 차표, 식권, 쪽지
+              .item-dream
+                .radio-style-1
+                  input#radio-24(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-24')
+                    .item-text 가구, 가전, 도구, 철물
+              .item-dream
+                .radio-style-1
+                  input#radio-25(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-25')
+                    .item-text 담배, 초, 향, 이쑤시개
+              .item-dream
+                .radio-style-1
+                  input#radio-26(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-26')
+                    .item-text 광고, 전화, 무전
+              .item-dream
+                .radio-style-1
+                  input#radio-27(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-27')
+                    .item-text 음식
+              .item-dream
+                .radio-style-1
+                  input#radio-28(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-28')
+                    .item-text 의류, 잡화
+              .item-dream
+                .radio-style-1
+                  input#radio-29(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-29')
+                    .item-text 침구, 바느질, 세탁, 신발
+              .item-dream
+                .radio-style-1
+                  input#radio-30(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-30')
+                    .item-text 예체능, 문화, 예술
+              .item-dream
+                .radio-style-1
+                  input#radio-31(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-31')
+                    .item-text 놀이, 게임
+              .item-dream
+                .radio-style-1
+                  input#radio-32(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-32')
+                    .item-text 탈 것, 교통
+              .item-dream
+                .radio-style-1
+                  input#radio-33(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-33')
+                    .item-text 배, 잠수함
+              .item-dream
+                .radio-style-1
+                  input#radio-34(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-34')
+                    .item-text 비행기, 우주선
+              .item-dream
+                .radio-style-1
+                  input#radio-35(type='radio', name='group-dream-main1')  
+                  label.after-checkbox(for='radio-35')
+                    .item-text 전쟁, 무기
+      
+      #main-2.page-content.main-sub-1.main-container
+        .container    
+          .main-content
+            .main-header
+              .main-number 02
+              .main-title 꿈에 무엇이 나왔나요?
+              .main-sub-title 되도록 남에겐 얘기하지 않는 것이 좋습니다
+            .list-item-content.row
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-1(type='radio', name='group-dream-main2', value="main-3")  
+                  label.after-checkbox(for='radio-stepB-1')
+                    .item-text 호랑이
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-2(type='radio', name='group-dream-main2', value="main-3_0")  
+                  label.after-checkbox(for='radio-stepB-2')
+                    .item-text 용
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-3(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-3')
+                    .item-text 코끼리
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-4(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-4')
+                    .item-text 사자
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-5(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-5')
+                    .item-text 돼지
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-6(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-6')
+                    .item-text 코뿔소
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-7(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-7')
+                    .item-text 코뿔소
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-8(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-8')
+                    .item-text 곰
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-9(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-9')
+                    .item-text 기린
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-10(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-10')
+                    .item-text 소
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-11(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-11')
+                    .item-text 양
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-12(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-12')
+                    .item-text 토끼
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-13(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-13')
+                    .item-text 토끼
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-14(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-14')
+                    .item-text 뱀
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-15(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-15')
+                    .item-text 다람쥐
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-16(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-16')
+                    .item-text 쥐
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-17(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-17')
+                    .item-text 박쥐
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-18(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-18')
+                    .item-text 말
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-19(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-19')
+                    .item-text 늑대
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-20(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-20')
+                    .item-text 원숭이
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-21(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-21')
+                    .item-text 고양이
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-22(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-22')
+                    .item-text 고릴라
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-23(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-23')
+                    .item-text 사슴
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-24(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-24')
+                    .item-text 캥거루
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-25(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-25')
+                    .item-text 여우
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-26(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-26')
+                    .item-text 개
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-27(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-27')
+                    .item-text 시라소니
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-28(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-28')
+                    .item-text 치타
+      
+      #main-2_1.page-content.main-sub-1.main-container
+        .container    
+          .main-content
+            .main-header
+              .main-number 002
+              .main-title 꿈에 무엇이 나왔나요?
+              .main-sub-title 되도록 남에겐 얘기하지 않는 것이 좋습니다
+            .list-item-content.row
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-01(type='radio', name='group-dream-main2', value="main-3")  
+                  label.after-checkbox(for='radio-stepB-01')
+                    .item-text 호랑이
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-02(type='radio', name='group-dream-main2', value="main-3_0")  
+                  label.after-checkbox(for='radio-stepB-02')
+                    .item-text 용
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-03(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-03')
+                    .item-text 코끼리
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-04(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-04')
+                    .item-text 사자
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-05(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-05')
+                    .item-text 돼지
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-06(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-06')
+                    .item-text 코뿔소
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-07(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-07')
+                    .item-text 코뿔소
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-08(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-08')
+                    .item-text 곰
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-09(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-09')
+                    .item-text 기린
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-010(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-010')
+                    .item-text 소
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-011(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-011')
+                    .item-text 양
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-012(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-012')
+                    .item-text 토끼
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-013(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-013')
+                    .item-text 토끼
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-014(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-014')
+                    .item-text 뱀
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-015(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-015')
+                    .item-text 다람쥐
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-016(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-016')
+                    .item-text 쥐
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-017(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-017')
+                    .item-text 박쥐
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-018(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-018')
+                    .item-text 말
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-019(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-019')
+                    .item-text 늑대
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-020(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-020')
+                    .item-text 원숭이
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-021(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-021')
+                    .item-text 고양이
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-022(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-022')
+                    .item-text 고릴라
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-023(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-023')
+                    .item-text 사슴
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-024(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-024')
+                    .item-text 캥거루
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-025(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-025')
+                    .item-text 여우
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-026(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-026')
+                    .item-text 개
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-027(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-027')
+                    .item-text 시라소니
+              .item-dream.item-dream-step2
+                .radio-style-2
+                  input#radio-stepB-028(type='radio', name='group-dream-main2')  
+                  label.after-checkbox(for='radio-stepB-028')
+                    .item-text 치타
+      
+      #main-3.page-content.main-sub-2.main-container
+        .container    
+          .main-content
+            .main-header
+              .main-number 03
+              .main-title 정확히 어떤 꿈이었나요?
+              .main-sub-title 꿈 꾼 시각과 가까울수록 효과가 좋습니다
+            .list-item-content.row
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-1(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-1')
+                    .item-text 임산부가 사자나 호랑이를 피하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-2(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-2')
+                    .item-text 호랑이가 마구 날뛰면서 으르렁거리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-3(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-3')
+                    .item-text 독수리와 호랑이가 싸움을 하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-4(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-4')
+                    .item-text 호랑이가 죽어 모기가 되어 엥엥 울며 날아다니는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-5(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-5')
+                    .item-text 호랑이, 고양이, 등이 지붕에 올라가 내려다보는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-6(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-6')
+                    .item-text 호랑이나 사자가 자신 앞에 무릎을 끓고 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-7(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-7')
+                    .item-text 호랑이가 집에 왔다가 사라지는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-8(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-8')
+                    .item-text 수풀 속에서 호랑이 새끼를 얻는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-9(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-9')
+                    .item-text 호랑이를 그렸는데 고양이 그림이 되는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-10(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-10')
+                    .item-text 호랑이가 무서워 도망치려 해도 발이 떨어지지 않아
+                      br
+                      | 도망갈 수 없어 떨고 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-11(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-11')
+                    .item-text 숲속에서 호랑이를 만나는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-12(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-12')
+                    .item-text 호랑이가 말을 타고 집안으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-13(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-13')
+                    .item-text 바라보고 있는 산이 용이나 호랑이, 사람으로 변하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-14(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-14')
+                    .item-text 호랑이나 사자를 피해서 도망치는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-15(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-15')
+                    .item-text 호랑이가 옆 또는 앞뒤에서 개처럼 따라다니는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-16(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-16')
+                    .item-text 호랑이나 사자를 피해서 도망치는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-16(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-17')
+                    .item-text 호랑이가 옆 또는 앞뒤에서 개처럼 따라다니는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-18(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-18')
+                    .item-text 호랑이 세 마리가 방으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-19(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-19')
+                    .item-text 호랑이 세 마리가 방으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-20(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-20')
+                    .item-text 작은 동물이 점점 변해서 호랑이가 되는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-21(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-21')
+                    .item-text 울타리 밑으로 뱀, 호랑이 등 동물이 들어 온 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-22(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-22')
+                    .item-text 지붕 위에 고양이나 원숭이, 여우, 삵쾡이, 호랑이 등 영물이
+                      br
+                      | 올라가 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-23(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-23')
+                    .item-text 동물원으로 소풍을 가서 사자나 호랑이를 보는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-24(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-24')
+                    .item-text 문 밖에 웅크리고 앉아 있는 호랑이를 보는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-25(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-25')
+                    .item-text 호랑이가 자신의 몸에 감긴 뱀을 바위에 문대어 잘라 버리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-26(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-26')
+                    .item-text 호랑이와 성교하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-27(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-27')
+                    .item-text 호랑이 털옷을 입고 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-28(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-28')
+                    .item-text 백호가 집이나 방안으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-29(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-29')
+                    .item-text 호랑이가 변해 생쥐로 되는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-30(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-30')
+                    .item-text 초원에서 많은 사자와 호랑이가 뒹굴며 노는 것을 보는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-31(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-31')
+                    .item-text 굴속이나 바위 밑에 웅크리고 앉아 있는 호랑이를 발견하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-32(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-32')
+                    .item-text 호랑이가 산처럼 버티고 서서 큰 소리로 포효하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-33(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-33')
+                    .item-text 호랑이가 팔, 다리를 물어뜯어 피가 철철 흐르는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-34(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-34')
+                    .item-text 시라소니가 먹이를 찾아 헤매다가 호랑이를 만나 피하고 토끼와
+                      br
+                      | 쥐를 잡는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-35(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-35')
+                    .item-text 용이 뱀, 호랑이, 여자 등으로 변하여 싸움을 걸어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-36(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-36')
+                    .item-text 집안에 호랑이가 앉아 있거나 집안으로 들어오는 것을 본 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-37(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-37')
+                    .item-text 호랑이와 같이 걸어가면서 얘기하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-38(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-38')
+                    .item-text 호랑이를 타고 대궐이나 큰 저택 등의 대문으로 들어가는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-39(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-39')
+                    .item-text 호랑이를 타고 하늘을 날아가는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-40(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-40')
+                    .item-text 호랑이에게 덥석 깨물리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-41(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-41')
+                    .item-text 용과 호랑이가 서로 자웅을 겨루는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-42(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-42')
+                    .item-text 뱀이 호랑이를 잡아 먹는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-43(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-43')
+                    .item-text 호랑이를 줄에 매어 끌고 다니는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-44(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-44')
+                    .item-text 길을 가다가 호랑이 꼬리를 밟는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-45(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-45')
+                    .item-text 사자, 호랑이, 곰 등의 맹수들이 서로 물어뜯고 싸우는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-46(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-46')
+                    .item-text 호랑이나 사자와 싸워서 이기는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-47(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-47')
+                    .item-text 호랑이가 옥덩어리를 물어다 주는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-48(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-48')
+                    .item-text 죽은 조상이 호랑이와 함께 보이는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-49(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-49')
+                    .item-text 뱀이 닭으로, 호랑이가 사람 등으로 변하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-50(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-50')
+                    .item-text 호랑이를 타고 가다 내리거나 그만 못한 짐승과 바꿔 타는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-51(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-51')
+                    .item-text 자신이 다락에 숨어 있는데 호랑이가 덤벼들어 물거나 성교한 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-52(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-52')
+                    .item-text 호랑이가 예쁜 새끼를 낳는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-53(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-53')
+                    .item-text 호랑이를 타고 높은 산꼭대기에 오르는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-54(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-54')
+                    .item-text 깊은 산골짜기에서 호랑이 울음 소리가 들리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-55(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-55')
+                    .item-text 길바닥에 호랑이가 죽어 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-56(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-56')
+                    .item-text 호랑이 똥 속에 영롱한 옥이 나오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-57(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-57')
+                    .item-text 호랑이에 관한 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-58(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-58')
+                    .item-text 호랑이의 등에 타고 오가는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-59(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-59')
+                    .item-text 호랑이의 눈이 안개속에서도 번뜩여 보이는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-60(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-60')
+                    .item-text 방안에 호랑이가 있는데 문을 열고 다시 보니 고양이인 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-61(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-61')
+                    .item-text 호랑이가 집에 왔다가 사라지는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-62(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-62')
+                    .item-text 호랑이 형상이 또렷하게 보이는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-63(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-63')
+                    .item-text 홧김에 황소 만한 호랑이를 때려 죽이는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-64(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-64')
+                    .item-text 호랑이가 화려한 금관을 물어다 놓는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-65(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-65')
+                    .item-text 상대방 얼굴이 호랑이 상으로 변하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-66(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-66')
+                    .item-text 호랑이의 이빨이 빠지는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-67(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-67')
+                    .item-text 칼로 황룡을 죽이니 공중에서 호랑이 석고가 되어 움직이지 않는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-68(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-68')
+                    .item-text 큰 호랑이를 보고 두려워하거나 도피하여 숨는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-69(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-69')
+                    .item-text 호랑이새끼 두 마리를 한꺼번에 안은 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-70(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-70')
+                    .item-text 호랑이라고 생각했는데 자세히 살펴보니 고양이가 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-71(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-71')
+                    .item-text 뱀이 호랑이를 잡아 먹는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-72(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-72')
+                    .item-text 온몸에 구렁이가 감겨있는데 호랑이가 바위로 쳐서 토막을 내는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-73(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-73')
+                    .item-text 쥐가 호랑이나 고양이로 변하는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-74(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-74')
+                    .item-text 쥐가 호랑이로 변하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-75(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-75')
+                    .item-text 궁궐 같은 집으로 호랑이를 탄채 들어가는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-76(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-76')
+                    .item-text 들판에서 여러 마리의 호랑이나 사자가 어울려 노는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-77(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-77')
+                    .item-text 맨손으로 호랑이와 싸워 이기는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-78(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-78')
+                    .item-text 사방에서 호랑이가 개처럼 졸졸 쫓아다니는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-79(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-79')
+                    .item-text 사자, 호랑이, 표범의 등에 날개가 달려있는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-80(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-80')
+                    .item-text 사자나 호랑이 등의 맹수와 싸워서 이기는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-81(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-81')
+                    .item-text 사자나 호랑이가 자기 앞에 앉아 있는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-82(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-82')
+                    .item-text 사자나 호랑이를 죽이는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-83(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-83')
+                    .item-text 숲에서 나온 호랑이가 엉금엉금 걷다가 뛰어가는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-84(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-84')
+                    .item-text 집안으로 호랑이가 들어오는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-85(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-85')
+                    .item-text 피 흘리는 호랑이를 돌봐준 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-86(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-86')
+                    .item-text 하얀 호랑이가 집안으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-87(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-87')
+                    .item-text 호랑이 가죽을 얻는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-88(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-88')
+                    .item-text 호랑이, 사자 등의 머리를 얻는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-89(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-89')
+                    .item-text 호랑이가 무서워 부들부들 떠는것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-90(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-90')
+                    .item-text 호랑이가 방으로 들어 오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-91(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-91')
+                    .item-text 호랑이가 사자를 타고 달리는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-92(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-92')
+                    .item-text 호랑이가 자신 앞에선 얌전해지는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-93(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-93')
+                    .item-text 호랑이가 하늘을 보고 울부짖는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-94(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-94')
+                    .item-text 호랑이가 힘차게 포효(으르렁)하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-95(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-95')
+                    .item-text 호랑이나 사자가 우는 소리를 듣는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-96(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-96')
+                    .item-text 호랑이나 사자가 자기 앞에서 무릎을 꿇는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-97(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-97')
+                    .item-text 호랑이나 사자가 자신을 피해서 도망치는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-98(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-98')
+                    .item-text 호랑이나 사자에게 물리는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-99(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-99')
+                    .item-text 호랑이나 사자에게 쫓기는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-100(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-100')
+                    .item-text 호랑이를 그리려고 했는데 그림이 고양이로 표현되어 있는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-101(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-101')
+                    .item-text 호랑이를 끌고 다니는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-102(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-102')
+                    .item-text 호랑이를 타고 가다 다른 동물로 바꿔 타는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-103(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-103')
+                    .item-text 호랑이를 타고 달리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-104(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-104')
+                    .item-text 호랑이에게 물리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-105(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-105')
+                    .item-text 호랑이에게 절을 하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-106(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-106')
+                    .item-text 호랑이에게 쫒겨 도망 다니는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-107(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-107')
+                    .item-text 호랑이와 성교하는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-108(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-108')
+                    .item-text 힘이 없이 축쳐진 호랑이를 본 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-109(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-109')
+                    .item-text 호랑이가 집안으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-110(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-110')
+                    .item-text 임산부가 호랑이 새끼를 낳는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-111(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-111')
+                    .item-text 용, 호랑이, 사자 등의 머리를 땅속에서 캐내거나 죽이고 얻는 꿈
+      
+      #main-3_0.page-content.main-sub-2.main-container
+        .container    
+          .main-content
+            .main-header
+              .main-number 003
+              .main-title 정확히 어떤 꿈이었나요?
+              .main-sub-title 꿈 꾼 시각과 가까울수록 효과가 좋습니다
+            .list-item-content.row
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-1(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-1')
+                    .item-text 임산부가 사자나 호랑이를 피하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-2(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-2')
+                    .item-text 호랑이가 마구 날뛰면서 으르렁거리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-3(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-3')
+                    .item-text 독수리와 호랑이가 싸움을 하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-4(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-4')
+                    .item-text 호랑이가 죽어 모기가 되어 엥엥 울며 날아다니는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-5(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-5')
+                    .item-text 호랑이, 고양이, 등이 지붕에 올라가 내려다보는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-6(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-6')
+                    .item-text 호랑이나 사자가 자신 앞에 무릎을 끓고 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-7(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-7')
+                    .item-text 호랑이가 집에 왔다가 사라지는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-8(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-8')
+                    .item-text 수풀 속에서 호랑이 새끼를 얻는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-9(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-9')
+                    .item-text 호랑이를 그렸는데 고양이 그림이 되는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-10(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-10')
+                    .item-text 호랑이가 무서워 도망치려 해도 발이 떨어지지 않아
+                      br
+                      | 도망갈 수 없어 떨고 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-11(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-11')
+                    .item-text 숲속에서 호랑이를 만나는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-12(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-12')
+                    .item-text 호랑이가 말을 타고 집안으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-13(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-13')
+                    .item-text 바라보고 있는 산이 용이나 호랑이, 사람으로 변하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-14(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-14')
+                    .item-text 호랑이나 사자를 피해서 도망치는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-15(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-15')
+                    .item-text 호랑이가 옆 또는 앞뒤에서 개처럼 따라다니는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-16(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-16')
+                    .item-text 호랑이나 사자를 피해서 도망치는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-16(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-17')
+                    .item-text 호랑이가 옆 또는 앞뒤에서 개처럼 따라다니는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-18(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-18')
+                    .item-text 호랑이 세 마리가 방으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-19(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-19')
+                    .item-text 호랑이 세 마리가 방으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-20(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-20')
+                    .item-text 작은 동물이 점점 변해서 호랑이가 되는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-21(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-21')
+                    .item-text 울타리 밑으로 뱀, 호랑이 등 동물이 들어 온 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-22(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-22')
+                    .item-text 지붕 위에 고양이나 원숭이, 여우, 삵쾡이, 호랑이 등 영물이
+                      br
+                      | 올라가 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-23(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-23')
+                    .item-text 동물원으로 소풍을 가서 사자나 호랑이를 보는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-24(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-24')
+                    .item-text 문 밖에 웅크리고 앉아 있는 호랑이를 보는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-25(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-25')
+                    .item-text 호랑이가 자신의 몸에 감긴 뱀을 바위에 문대어 잘라 버리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-26(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-26')
+                    .item-text 호랑이와 성교하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-27(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-27')
+                    .item-text 호랑이 털옷을 입고 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-28(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-28')
+                    .item-text 백호가 집이나 방안으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-29(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-29')
+                    .item-text 호랑이가 변해 생쥐로 되는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-30(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-30')
+                    .item-text 초원에서 많은 사자와 호랑이가 뒹굴며 노는 것을 보는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-31(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-31')
+                    .item-text 굴속이나 바위 밑에 웅크리고 앉아 있는 호랑이를 발견하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-32(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-32')
+                    .item-text 호랑이가 산처럼 버티고 서서 큰 소리로 포효하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-33(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-33')
+                    .item-text 호랑이가 팔, 다리를 물어뜯어 피가 철철 흐르는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-34(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-34')
+                    .item-text 시라소니가 먹이를 찾아 헤매다가 호랑이를 만나 피하고 토끼와
+                      br
+                      | 쥐를 잡는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-35(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-35')
+                    .item-text 용이 뱀, 호랑이, 여자 등으로 변하여 싸움을 걸어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-36(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-36')
+                    .item-text 집안에 호랑이가 앉아 있거나 집안으로 들어오는 것을 본 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-37(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-37')
+                    .item-text 호랑이와 같이 걸어가면서 얘기하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-38(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-38')
+                    .item-text 호랑이를 타고 대궐이나 큰 저택 등의 대문으로 들어가는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-39(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-39')
+                    .item-text 호랑이를 타고 하늘을 날아가는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-40(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-40')
+                    .item-text 호랑이에게 덥석 깨물리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-41(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-41')
+                    .item-text 용과 호랑이가 서로 자웅을 겨루는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-42(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-42')
+                    .item-text 뱀이 호랑이를 잡아 먹는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-43(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-43')
+                    .item-text 호랑이를 줄에 매어 끌고 다니는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-44(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-44')
+                    .item-text 길을 가다가 호랑이 꼬리를 밟는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-45(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-45')
+                    .item-text 사자, 호랑이, 곰 등의 맹수들이 서로 물어뜯고 싸우는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-46(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-46')
+                    .item-text 호랑이나 사자와 싸워서 이기는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-47(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-47')
+                    .item-text 호랑이가 옥덩어리를 물어다 주는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-48(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-48')
+                    .item-text 죽은 조상이 호랑이와 함께 보이는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-49(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-49')
+                    .item-text 뱀이 닭으로, 호랑이가 사람 등으로 변하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-50(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-50')
+                    .item-text 호랑이를 타고 가다 내리거나 그만 못한 짐승과 바꿔 타는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-51(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-51')
+                    .item-text 자신이 다락에 숨어 있는데 호랑이가 덤벼들어 물거나 성교한 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-52(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-52')
+                    .item-text 호랑이가 예쁜 새끼를 낳는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-53(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-53')
+                    .item-text 호랑이를 타고 높은 산꼭대기에 오르는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-54(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-54')
+                    .item-text 깊은 산골짜기에서 호랑이 울음 소리가 들리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-55(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-55')
+                    .item-text 길바닥에 호랑이가 죽어 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-56(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-56')
+                    .item-text 호랑이 똥 속에 영롱한 옥이 나오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-57(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-57')
+                    .item-text 호랑이에 관한 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-58(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-58')
+                    .item-text 호랑이의 등에 타고 오가는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-59(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-59')
+                    .item-text 호랑이의 눈이 안개속에서도 번뜩여 보이는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-60(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-60')
+                    .item-text 방안에 호랑이가 있는데 문을 열고 다시 보니 고양이인 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-61(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-61')
+                    .item-text 호랑이가 집에 왔다가 사라지는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-62(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-62')
+                    .item-text 호랑이 형상이 또렷하게 보이는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-63(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-63')
+                    .item-text 홧김에 황소 만한 호랑이를 때려 죽이는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-64(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-64')
+                    .item-text 호랑이가 화려한 금관을 물어다 놓는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-65(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-65')
+                    .item-text 상대방 얼굴이 호랑이 상으로 변하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-66(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-66')
+                    .item-text 호랑이의 이빨이 빠지는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-67(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-67')
+                    .item-text 칼로 황룡을 죽이니 공중에서 호랑이 석고가 되어 움직이지 않는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-68(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-68')
+                    .item-text 큰 호랑이를 보고 두려워하거나 도피하여 숨는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-69(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-69')
+                    .item-text 호랑이새끼 두 마리를 한꺼번에 안은 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-70(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-70')
+                    .item-text 호랑이라고 생각했는데 자세히 살펴보니 고양이가 있는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-71(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-71')
+                    .item-text 뱀이 호랑이를 잡아 먹는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-72(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-72')
+                    .item-text 온몸에 구렁이가 감겨있는데 호랑이가 바위로 쳐서 토막을 내는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-73(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-73')
+                    .item-text 쥐가 호랑이나 고양이로 변하는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-74(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-74')
+                    .item-text 쥐가 호랑이로 변하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-75(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-75')
+                    .item-text 궁궐 같은 집으로 호랑이를 탄채 들어가는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-76(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-76')
+                    .item-text 들판에서 여러 마리의 호랑이나 사자가 어울려 노는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-77(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-77')
+                    .item-text 맨손으로 호랑이와 싸워 이기는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-78(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-78')
+                    .item-text 사방에서 호랑이가 개처럼 졸졸 쫓아다니는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-79(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-79')
+                    .item-text 사자, 호랑이, 표범의 등에 날개가 달려있는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-80(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-80')
+                    .item-text 사자나 호랑이 등의 맹수와 싸워서 이기는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-81(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-81')
+                    .item-text 사자나 호랑이가 자기 앞에 앉아 있는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-82(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-82')
+                    .item-text 사자나 호랑이를 죽이는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-83(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-83')
+                    .item-text 숲에서 나온 호랑이가 엉금엉금 걷다가 뛰어가는 것은 
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-84(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-84')
+                    .item-text 집안으로 호랑이가 들어오는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-85(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-85')
+                    .item-text 피 흘리는 호랑이를 돌봐준 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-86(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-86')
+                    .item-text 하얀 호랑이가 집안으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-87(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-87')
+                    .item-text 호랑이 가죽을 얻는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-88(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-88')
+                    .item-text 호랑이, 사자 등의 머리를 얻는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-89(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-89')
+                    .item-text 호랑이가 무서워 부들부들 떠는것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-90(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-90')
+                    .item-text 호랑이가 방으로 들어 오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-91(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-91')
+                    .item-text 호랑이가 사자를 타고 달리는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-92(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-92')
+                    .item-text 호랑이가 자신 앞에선 얌전해지는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-93(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-93')
+                    .item-text 호랑이가 하늘을 보고 울부짖는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-94(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-94')
+                    .item-text 호랑이가 힘차게 포효(으르렁)하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-95(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-95')
+                    .item-text 호랑이나 사자가 우는 소리를 듣는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-96(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-96')
+                    .item-text 호랑이나 사자가 자기 앞에서 무릎을 꿇는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-97(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-97')
+                    .item-text 호랑이나 사자가 자신을 피해서 도망치는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-98(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-98')
+                    .item-text 호랑이나 사자에게 물리는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-99(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-99')
+                    .item-text 호랑이나 사자에게 쫓기는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-100(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-100')
+                    .item-text 호랑이를 그리려고 했는데 그림이 고양이로 표현되어 있는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-101(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-101')
+                    .item-text 호랑이를 끌고 다니는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-102(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-102')
+                    .item-text 호랑이를 타고 가다 다른 동물로 바꿔 타는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-103(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-103')
+                    .item-text 호랑이를 타고 달리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-104(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-104')
+                    .item-text 호랑이에게 물리는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-105(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-105')
+                    .item-text 호랑이에게 절을 하는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-106(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-106')
+                    .item-text 호랑이에게 쫒겨 도망 다니는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-107(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-107')
+                    .item-text 호랑이와 성교하는 것은
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-108(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-108')
+                    .item-text 힘이 없이 축쳐진 호랑이를 본 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-109(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-109')
+                    .item-text 호랑이가 집안으로 들어오는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-110(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-110')
+                    .item-text 임산부가 호랑이 새끼를 낳는 꿈
+              .item-dream.item-dream-step3
+                .radio-style-3
+                  input#radio-stepC-111(type='radio', name='group-dream-main3')  
+                  label.after-checkbox(for='radio-stepC-111')
+                    .item-text 용, 호랑이, 사자 등의 머리를 땅속에서 캐내거나 죽이고 얻는 꿈
+      
+      #main-4.page-content.main-container
+        #main-loadding-4
+          .container
+            .main-content
+              .icon-loadding
+                img(src="../assets/images/icons/loading.gif")
+              .status-waitting 해몽 중...
+              .notice 꿈 꾼 시각과 가까울수록 효과가 좋습니다
+        #main-4-content
+          .container
+            .main-content
+              .title-main-4 
+                span.text-title 꿈해몽 결과
+              .content-detail
+                | 재주와 지혜가 뛰어난 사람, 부귀한 사람, 일거리, 재물, 명예, 작품 등의 상징이다.
+                br
+                | 기린은 전설적인 영험한 동물로 알려져 있어 당신의 명성이 천하에 떨칠 대단한 길몽이며, 미혼여성이 이 꿈을 꾸면
+                br
+                | 장래 큰 인물이 될 남성과 맺어지고, 임신부는 현명한 인물을 낳으며 당신 가정이 태평성대를 누리게 된다.
+              .button-control
+                button.btn-confirm.confirm-step4 내 꿈을 로또번호로 교환하기
+
+      #main-5.page-content.main-container
+        #main-loadding-5
+          .container
+            .main-content
+              .icon-loadding
+                img(src="../assets/images/icons/loading.gif")
+              .status-waitting 교환 중..
+              .notice 정신을 집중해주세요.
+                br
+                | 꿈이 알려주는 방향의 번호를 찾고 있습니다.   
+        #main-5-content
+          .container
+            .main-title 당신의 꿈에 숨어있던 로또번호
+            .main-content
+              .list-ball-number
+                .item-ball.orange-ball 4
+                .item-ball.blue-ball 12
+                .item-ball.blue-ball 15
+                .item-ball.red-ball 28
+                .item-ball.green-ball 29
+                .item-ball.gray-ball 37
+              .button-control
+                button.btn-gray.btn-back 처음부터 다시하기
+
+      #popup-confirm-main4-none.modal.fade(tabindex='-1', aria-hidden='true', data-backdrop="static" data-keyboard="false")
+        .modal-dialog
+          .modal-content
+            .modal-header-complete
+              a.close-popup(data-dismiss='modal', aria-label='Close')
+                i.fa.fa-close
+              .modal-title 투표 참여 완료
+            .modal-body
+              | 꿈교환권이 부족합니다.
+            .modal-footer
+              a.btn-blue.btn-close-modal(data-dismiss='modal', aria-label='Close') 취소
+
+      #popup-confirm-main4.modal.fade
+        .modal-dialog
+          .modal-content
+            .modal-header
+              a.close-popup(data-dismiss='modal', aria-label='Close')
+                i.fa.fa-close
+              .modal-title 투표 참여 완료
+            .modal-body
+              | 꿈교환권 1장 중에 1장을 사용하시겠습니까?
+            .modal-footer
+              a.btn-blue.btn-confirm-point 확인
+              a.btn-gray.btn-close-modal(data-dismiss='modal') 취소
+
+      ="\n"
+      footer.footer
+        .container
+          .footer-content
+            | 번호드림의 꿈을 분석한 정보제공만을 목적으로 하며, 당첨확률 개선서비스가 아닙니다.
+            br
+            span.font-150 ⓒ 2017 번호드림
+          //- .clearfix
+        // .footer
+      
+    // .popupLoginPage
+    //- append popup-wrapper
+    //-   include ../includes/popupCreateInfo.jade
+    //-   ="\n"
+    //-   include ../includes/popupMessageCreate.jade
+    //-   ="\n"
+    //-   include ../includes/popupMessageCreateAdd.jade
+      
+  script(type='text/javascript', src='../libs/js/jquery.min.js')
+  script(type='text/javascript', src='../libs/js/bootstrap.min.js')
+  script(type="text/javascript", src='../assets/js/admin.js')
+  script.
+    $(document).ready(function () {
+      if($('#main-5-content').is(':visible')){
+        $('.confirm-step4').css('display', 'none');
+
+
+      }
+    });
+    $(document.body).on('change', '.radio-style-1 input[name="group-dream-main1"]', function(){
+      var id_main = $(this).val();
+      $('.main-sub-1').fadeOut();
+      $('#'+id_main).fadeIn(300);
+      $('html, body').animate({scrollTop:$('#'+id_main).position().top}, 'slow');
+    });
+
+    $(document.body).on('change', '.radio-style-2 input[name="group-dream-main2"]', function(){
+      var id_main = $(this).val();
+      $('.main-sub-2').fadeOut();
+      $('#'+id_main).fadeIn(300);
+      $('html, body').animate({scrollTop:$('#'+id_main).position().top}, 'slow');
+    });
+
+    $(document.body).on('change', '.radio-style-3 input[name="group-dream-main3"]', function(){
+      $('html, body').animate({scrollTop:$('#main-4').position().top}, 'slow');
+      $("#main-loadding-4").fadeIn(0).delay(5000).fadeOut(0);
+
+      $("#main-4-content").hide(0).delay(5000).show(0);
+      //- $('html, body').animate({scrollTop:$('#main-4-content').position().top}, 'slow');
+
+      //- setTimeout($('#main-4').fadeIn(5000));
+    });
+
+    $(document.body).on('click', '.confirm-step4', function(){
+      var point_number = 3;
+      if(point_number == 0){
+        $('#popup-confirm-main4-none').css('display', 'block');
+        $('#popup-confirm-main4-none').addClass('in');
+      }
+      else{
+        $('#popup-confirm-main4-none').css('display', 'none');
+        $('#popup-confirm-main4-none').removeClass('in');
+        $('#popup-confirm-main4').fadeIn(200);
+        $('#popup-confirm-main4').addClass('in');
+      }
+    });
+    
+    $(function () {
+      $(".btn-close-modal").click(function () {
+        $('#popup-confirm-main4').fadeOut(200);
+        $('#popup-confirm-main4').removeClass('in');
+      });
+    });
+    //- $(document).on('click', '.btn-close-modal', function(){
+    //-   $('#popup-confirm-main4').fadeOut(200);
+    //-   $('#popup-confirm-main4').removeClass('in');
+    //-   alert(123);
+    //- });
+    $(function () {
+      $(".btn-confirm-point").click(function () {
+        $('#popup-confirm-main4').fadeOut(200);
+        $('#popup-confirm-main4').removeClass('in');
+
+        $('html, body').animate({scrollTop:$('#main-5').position().top}, 'slow');
+        $("#main-loadding-5").fadeIn(300).delay(5000).fadeOut(300);
+
+        $("#main-5-content").hide(0).delay(5000).show(0);
+      });
+    });
+
+    $(document.body).on('click', '.btn-back', function(){
+      window.location.replace("main.html");
+    });
+    //- var body_main = $(window).height();
+    //- var header_h = 94 + 35;
+    //- var footer_h = 96;
+    //- var content_main_h = body_main - header_h - footer_h;
+    //- var h_jsmap = content_main_h - 60;
+
+    //- document.write('<style> .main-container{height: '+ content_main_h +'px;} #vmap{height: '+ h_jsmap +'px;}</style>');
+    
+    
